@@ -10,8 +10,6 @@ class App extends Component {
   render() {
     const tokens = window.location.hostname.split('.');
     let subject = 'Something';
-    console.log('TOKENS', tokens);
-    console.log('TOKENS', tokens.slice(0, tokens.length - 2));
     if (tokens.length >= 3) {
       let words = tokens.slice(0, tokens.length - 2);
       subject = capitalize(words.join(' '));
