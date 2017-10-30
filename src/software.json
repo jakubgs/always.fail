@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Duplicati",
+        "pros": "free, multi-platform",
+        "cons": "no support",
+        "cost": "none",
+        "link": "https://www.duplicati.com/"
+    },
+    {
+        "name": "Mactrium Reflect",
+        "pros": "free*, mature",
+        "cons": "limited free-edition",
+        "cost": "Freemium",
+        "link": "https://www.macrium.com/reflectfree"
+    },
+    {
+        "name": "Time Machine",
+        "pros": "well integrated, user-friendly",
+        "cons": "OSX only",
+        "cost": "Included",
+        "link": "https://support.apple.com/en-ie/HT201250"
+    }
+]

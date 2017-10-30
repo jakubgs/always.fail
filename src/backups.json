@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Duplicati",
+        "pros": "free, multi-platform",
+        "cons": "",
+        "cost": "none",
+        "link": "https://www.duplicati.com/"
+    },
+    {
+        "name": "BackBlaze",
+        "pros": "unlimited, easy, cheap, simple",
+        "cons": "none",
+        "cost": "$5 / month",
+        "link": "https://www.backblaze.com/"
+    },
+    {
+        "name": "Tarsnap",
+        "pros": "cheap, deduplication, encryption",
+        "cons": "own binary tool.",
+        "cost": "$0.25 / GB-month",
+        "link": "https://www.tarsnap.com/"
+    },
+    {
+        "name": "DropBox",
+        "pros": "easy to use",
+        "cons": "expensive, not really a backup",
+        "cost": "$9.99 / TB-month",
+        "link": "https://www.dropbox.com/buy"
+    },
+    {
+        "name": "AWS S3",
+        "pros": "widely supported, multi-region",
+        "cons": "bit pricy",
+        "cost": "~$0.06 / GB-month",
+        "link": "https://aws.amazon.com/s3/"
+    },
+    {
+        "name": "AWS Glacier",
+        "pros": "cheap",
+        "cons": "slow restore speed",
+        "cost": "~$0.01 / GB-month",
+        "link": "https://aws.amazon.com/glacier"
+    }
+]

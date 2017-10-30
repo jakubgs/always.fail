@@ -26,6 +26,16 @@ body {
     margin: auto;
 }
 
+div.backups {
+    font-size: 0.7em;
+}
+
+div.backups table {
+    margin-top: 3em;
+    margin: auto;
+    width: 70em;
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 1.2em;
