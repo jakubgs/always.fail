@@ -85,7 +85,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   aliases = ["always.fail", "*.always.fail"]
 
   default_cache_behavior {
-    allowed_methods  = ["HEAD", "DELETE", "POST", "GET", "OPTIONS", "PUT", "PATCH"]
+    allowed_methods  = ["HEAD", "GET"]
     cached_methods   = ["HEAD", "GET"]
     target_origin_id = "always-fail-origin"
 
@@ -101,7 +101,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
     max_ttl                = 86400
-    default_ttl            = 3600
+    default_ttl            = 120
   }
 
   price_class = "PriceClass_All"
