@@ -1,32 +1,37 @@
 body {
-  background-color: #222;
+    background-color: #222;
 }
 
 .App {
-  text-align: center;
-  padding: 2em;
-  color: white;
+    text-align: center;
+    padding: 2em;
+    color: white;
 }
 
-.fail-mark {
-  height: 5%;
+.logo {
+    min-height: 30%;
+    max-height: 50%;
 }
 
 .App-title {
-  font-size: 3em;
+    font-size: 3em;
 }
 
 .App-intro {
-  font-size: large;
+    font-size: large;
+}
+
+.quote {
+    width: 60%;
+    margin-left: 20%;
 }
 
 blockquote {
     font-family: Georgia, serif;
     font-size: 1.3em;
     font-style: italic;
-    width: 60%;
     margin: 0.25em 0;
-    padding: 0.35em 40px;
+    padding: 0.4em 40px;
     line-height: 1.45;
     position: relative;
 }
@@ -37,8 +42,8 @@ blockquote::before {
     content: "\201C";
     font-size: 5em;
     position: absolute;
-    left: -0.3em;
-    top: -20px;
+    left: -0.5em;
+    top: -0.3em;
 }
 
 blockquote::after {
@@ -47,16 +52,17 @@ blockquote::after {
     content: "\201D";
     font-size: 5em;
     position: absolute;
-    right: -0.1em;
-    bottom: -60px;
+    right: -0.2em;
+    bottom: -0.8em;
 }
 
 blockquote cite {
-    font-size: 14px;
+    font-size: 1em;
     display: block;
-    margin-top: 5px;
+    margin-top: 1.2em;
+    float: right !important;
 }
 
 blockquote cite::before {
-    content: "\2014 \2009";
+    content: "\2014 ";
 }

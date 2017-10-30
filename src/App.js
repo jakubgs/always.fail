@@ -21,13 +21,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={fail} className="fail-mark" alt="fail mark"/>
+          <img src={fail} className="logo" alt="fail mark"/>
           <h1 className="App-title">{subject} always fail{plural}.</h1>
         </header>
         <br/>
-        <div className="quote" style={{paddingLeft: '30%'}}>
-          <blockquote>{quotes[index].text}</blockquote>
-          <cite>{quotes[index].author}</cite>
+        <div className="quote">
+          <blockquote>
+            {quotes[index].text}
+            <cite>{quotes[index].author}</cite>
+          </blockquote>
         </div>
       </div>
     );
