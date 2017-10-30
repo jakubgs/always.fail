@@ -22,7 +22,9 @@ class App extends Component {
     if (tokens.length >= 3) {
       let words = tokens.slice(0, tokens.length - 2);
       subject = capitalize(words.join(' '));
-      plural = tokens[0].endsWith('s') ? '' : 's';
+      if (tokens[0] === 'i' || tokens[0].endsWith('s')) {
+        plural = '';
+      }
     }
     return `${subject} always fail${plural}.`;
   }
