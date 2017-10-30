@@ -19,3 +19,44 @@ body {
 .App-intro {
   font-size: large;
 }
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    font-style: italic;
+    width: 60%;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+}
+
+blockquote::before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 5em;
+    position: absolute;
+    left: -0.3em;
+    top: -20px;
+}
+
+blockquote::after {
+    display: block;
+    padding-left: 10px;
+    content: "\201D";
+    font-size: 5em;
+    position: absolute;
+    right: -0.1em;
+    bottom: -60px;
+}
+
+blockquote cite {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite::before {
+    content: "\2014 \2009";
+}
