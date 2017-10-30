@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Table} from 'react-bootstrap';
-import software from './software.json';
-import backups from './backups.json';
-import logo from './backup.png';
+import software from './data/software.json';
+import backups from './data/backups.json';
+import logo from './images/backup.png';
 
 class Backups extends Component {
   mapToRows (entries) {

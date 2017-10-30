@@ -4,10 +4,6 @@ import './App.css';
 import Generic from './Generic.js';
 import Backups from './Backups.js';
 
-function capitalize(text) {
-    return text.replace(/\b./, m => m.toUpperCase());
-}
-
 const APP_MAP = [
     { app: Backups, regex: /^(backups|harddrives|hdds|drives|storage)/},
     { app: Generic, regex: /.*/ }

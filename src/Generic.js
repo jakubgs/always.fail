@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Helmet} from "react-helmet";
-import fail from './fail.png';
-import quotes from './quotes.json';
+import fail from './images/fail.png';
+import quotes from './data/quotes.json';
 
 function capitalize(text) {
     return text.replace(/\b./, m => m.toUpperCase());
