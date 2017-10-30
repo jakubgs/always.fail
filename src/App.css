@@ -9,8 +9,8 @@ body {
 }
 
 .logo {
-    min-height: 30%;
-    max-height: 50%;
+    height: 15em;
+    margin-bottom: 2em;
 }
 
 .App-title {
@@ -22,8 +22,8 @@ body {
 }
 
 .quote {
-    width: 60%;
-    margin-left: 20%;
+    width: 40em;
+    margin: auto;
 }
 
 blockquote {
