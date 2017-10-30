@@ -14,12 +14,12 @@ class App extends Component {
       let words = tokens.slice(0, tokens.length - 2);
       subject = capitalize(words.join(' '));
     }
-    let ending = tokens[0].endsWith('s') ? 'fail' : 'fails';
+    let plural = tokens[0].endsWith('s') ? '' : 's';
     return (
       <div className="App">
         <header className="App-header">
           <img src={fail} className="fail-mark" alt="fail mark"/>
-          <h1 className="App-title">{subject} will always {ending}.</h1>
+          <h1 className="App-title">{subject} always fail{plural}.</h1>
         </header>
       </div>
     );
