@@ -9,26 +9,36 @@ function capitalize(text) {
 }
 
 class App extends Component {
-  render() {
+  randomQuote () {
+    return quotes[Math.floor(Math.random()*(quotes.length-1))];
+  }
+
+  getSubject () {
     const tokens = window.location.hostname.split('.');
     let subject = 'Something';
+    let plural = 's';
+
     if (tokens.length >= 3) {
       let words = tokens.slice(0, tokens.length - 2);
       subject = capitalize(words.join(' '));
+      plural = tokens[0].endsWith('s') ? '' : 's';
     }
-    let plural = tokens[0].endsWith('s') ? '' : 's';
-    let index = Math.floor(Math.random()*(quotes.length-1));
+    return `${subject} always fail${plural}.`;
+  }
+
+  render () {
+    let quote = this.randomQuote();
     return (
       <div className="App">
         <header className="App-header">
           <img src={fail} className="logo" alt="fail mark"/>
-          <h1 className="App-title">{subject} always fail{plural}.</h1>
+          <h1 className="App-title">{this.getSubject()}</h1>
         </header>
         <br/>
         <div className="quote">
           <blockquote>
-            {quotes[index].text}
-            <cite>{quotes[index].author}</cite>
+            {quote.text}
+            <cite>{quote.author}</cite>
           </blockquote>
         </div>
       </div>
