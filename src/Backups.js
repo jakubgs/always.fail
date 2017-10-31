@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from "react-helmet";
 import {Table} from 'react-bootstrap';
 import software from './data/software.json';
 import backups from './data/backups.json';
@@ -17,10 +18,14 @@ class Backups extends Component {
   }
 
   render () {
+    const subject = "All storage eventually fails";
     return (
       <div className="backups">
+        <Helmet>
+          <title>{subject}</title>
+        </Helmet>
         <img src={logo} className="logo" alt="backup icon"/>
-        <h1>All storage eventually fails</h1>
+        <h1>{subject}</h1>
         <span>
           To fight against that use multiple storage mediums,
           and if possible, <b>multiple</b> off-site backups.
