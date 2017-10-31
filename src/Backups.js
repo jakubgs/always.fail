@@ -24,6 +24,7 @@ class Backups extends Component {
         <span>
           To fight against that use multiple storage mediums,
           and if possible, <b>multiple</b> off-site backups.
+          Here are some options you can consider.
         </span>
         <br/><br/>
         <Table responsive>
