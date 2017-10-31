@@ -1,12 +1,5 @@
 [
     {
-        "name": "Duplicati",
-        "pros": "free, multi-platform",
-        "cons": "",
-        "cost": "none",
-        "link": "https://www.duplicati.com/"
-    },
-    {
         "name": "BackBlaze",
         "pros": "unlimited, easy, cheap, simple",
         "cons": "none",
