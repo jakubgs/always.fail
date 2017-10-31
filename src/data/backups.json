@@ -7,6 +7,20 @@
         "link": "https://www.backblaze.com/"
     },
     {
+        "name": "CrashPlan",
+        "pros": "unlimited, encryption, user-friendly",
+        "cons": "none",
+        "cost": "$10 per device",
+        "link": "https://www.crashplan.com/"
+    },
+    {
+        "name": "Rsync.net",
+        "pros": "ssh/rsync/git/diplicity, multi-region",
+        "cons": "none",
+        "cost": "$0.08 / GB-month",
+        "link": "http://rsync.net/"
+    },
+    {
         "name": "Tarsnap",
         "pros": "cheap, deduplication, encryption",
         "cons": "own binary tool.",
