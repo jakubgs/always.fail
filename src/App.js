@@ -5,7 +5,7 @@ import Generic from './Generic.js';
 import Backups from './Backups.js';
 
 const APP_MAP = [
-    { app: Backups, regex: /^(backups|harddrives|hdds|drives|storage)/},
+    { app: Backups, regex: /^(backup|harddrive|hdd|drive|storage)/},
     { app: Generic, regex: /.*/ }
 ];
 
