@@ -29,6 +29,14 @@ class Backups extends Component {
         <span>
           To fight against that use multiple storage mediums,
           and if possible, <b>multiple</b> off-site backups.
+          There are three rules you have to keep in mind:
+          <br/>
+          <br/>
+          <ul  className='list-unstyled'>
+            <li><b>Automate backups</b> - Humans forget, computers dont.</li>
+            <li><b>Multiple copies</b> - Disasters happen, drives break.</li>
+            <li><b>Check restore</b> - Backups have to work both ways.</li>
+          </ul>
           Here are some options you can consider.
         </span>
         <br/><br/>
