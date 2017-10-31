@@ -36,6 +36,10 @@ div.backups table {
     width: 70em;
 }
 
+div.backups th {
+   text-align: center;
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 1.2em;
