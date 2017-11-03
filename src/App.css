@@ -4,7 +4,7 @@ body {
 
 .App {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
     color: white;
 }
 
@@ -38,6 +38,11 @@ div.backups table {
 
 div.backups th {
    text-align: center;
+}
+
+div.footer {
+    margin-top: 1em;
+    font-size: 0.6em;
 }
 
 blockquote {

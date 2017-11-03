@@ -58,6 +58,9 @@ class Backups extends Component {
             {this.mapToRows(backups)}
           </tbody>
         </Table>
+        <span>
+          Feel free to write with any suggestions on what I can add here.
+        </span>
       </div>
     );
   }

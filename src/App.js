@@ -3,6 +3,7 @@ import './bootstrap.min.css';
 import './App.css';
 import Generic from './Generic.js';
 import Backups from './Backups.js';
+import Footer from './Footer.js';
 
 const APP_MAP = [
     { app: Backups, regex: /^(backup|harddrive|hdd|drive|storage)/},
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <Contents/>
+        <Footer/>
       </div>
     );
   }
