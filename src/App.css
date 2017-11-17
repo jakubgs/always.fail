@@ -2,6 +2,10 @@ body {
     background-color: #222;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .App {
     text-align: center;
     padding: 1em;
@@ -85,3 +89,5 @@ blockquote cite {
 blockquote cite::before {
     content: "\2014 ";
 }
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Helmet} from "react-helmet";
+import Footer from './Footer.js';
 import fail from './images/fail.png';
 import quotes from './data/quotes.json';
 
@@ -29,7 +30,7 @@ class Generic extends Component {
     let quote = this.randomQuote();
     let subject = this.getSubject();
     return (
-      <div className="App">
+      <div>
         <Helmet>
           <title>{subject}</title>
         </Helmet>
@@ -44,6 +45,7 @@ class Generic extends Component {
             <cite>{quote.author}</cite>
           </blockquote>
         </div>
+        <Footer/>
       </div>
     );
   }
