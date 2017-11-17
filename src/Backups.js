@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Helmet} from "react-helmet";
 import logo from './images/backup.png';
 import BackupsTable from './BackupsTable.js';
+import Footer from './Footer.js';
 
 class Backups extends Component {
   render () {
@@ -31,6 +32,7 @@ class Backups extends Component {
         <span>
           Feel free to write with any suggestions on what I can add here.
         </span>
+        <Footer/>
       </div>
     );
   }
