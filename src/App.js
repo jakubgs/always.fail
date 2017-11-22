@@ -3,10 +3,12 @@ import './bootstrap.min.css';
 import './App.css';
 import Generic from './Generic.js';
 import Backups from './Backups.js';
+import Commies from './Commies.js';
 import Me from './Me.js';
 
 const APP_MAP = [
     { app: Me, regex: /^i\./},
+    { app: Commies, regex: /^(communist|commies|marxist|socialist)/},
     { app: Backups, regex: /^(backup|harddrive|hdd|drive|storage)/},
     { app: Generic, regex: /.*/ }
 ];

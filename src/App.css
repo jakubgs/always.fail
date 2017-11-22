@@ -1,5 +1,6 @@
 body {
     background-color: #222;
+    padding: 0px;
 }
 
 a:hover {
@@ -9,7 +10,6 @@ a:hover {
 
 .App {
     text-align: center;
-    padding: 1em;
     color: white;
 }
 
@@ -43,6 +43,15 @@ div.backups table {
 
 div.backups th {
    text-align: center;
+}
+
+div.commies {
+    background-color: white;
+}
+
+div.commies img {
+    height: 100%;
+    margin: 0px;
 }
 
 div.footer {
