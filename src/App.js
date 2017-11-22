@@ -20,11 +20,7 @@ class App extends Component {
     let Contents = APP_MAP.find(page =>
       page.regex.test(window.location.hostname)
     ).app;
-    return (
-      <div className="App">
-        <Contents/>
-      </div>
-    );
+    return <Contents/>;
   }
 }
 

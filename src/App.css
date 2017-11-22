@@ -1,6 +1,8 @@
 body {
     background-color: #222;
     padding: 0px;
+    text-align: center;
+    color: white;
 }
 
 a:hover {
@@ -8,22 +10,9 @@ a:hover {
     text-decoration: none;
 }
 
-.App {
-    text-align: center;
-    color: white;
-}
-
 .logo {
     height: 15em;
     margin-bottom: 2em;
-}
-
-.App-title {
-    font-size: 3em;
-}
-
-.App-intro {
-    font-size: large;
 }
 
 .quote {
@@ -40,6 +29,10 @@ a:hover {
 }
 
 /* page specific rules */
+
+div.generic {
+    padding: 1em;
+}
 
 div.backups {
     font-size: 0.7em;

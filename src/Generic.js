@@ -30,7 +30,7 @@ class Generic extends Component {
     let quote = this.randomQuote();
     let subject = this.getSubject();
     return (
-      <div>
+      <div className='generic'>
         <Helmet>
           <title>{subject}</title>
         </Helmet>
