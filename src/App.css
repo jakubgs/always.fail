@@ -31,6 +31,16 @@ a:hover {
     margin: auto;
 }
 
+.footer {
+    margin-top: 1em;
+    font-size: 0.7em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+/* page specific rules */
+
 div.backups {
     font-size: 0.7em;
 }
@@ -54,10 +64,7 @@ div.commies img {
     margin: 0px;
 }
 
-div.footer {
-    margin-top: 1em;
-    font-size: 0.6em;
-}
+/* blockquote */
 
 blockquote {
     font-family: Georgia, serif;
@@ -67,6 +74,7 @@ blockquote {
     padding: 0.4em 40px;
     line-height: 1.45;
     position: relative;
+    border: 0px;
 }
 
 blockquote::before {
