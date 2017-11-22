@@ -9,7 +9,7 @@ class Commies extends Component {
         <Helmet>
           <title>Just stop.</title>
         </Helmet>
-        <img src={commies} alt="Just stop."/>
+        <img src={commies} alt='Just stop.'/>
       </div>
     );
   }
