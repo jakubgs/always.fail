@@ -23,4 +23,5 @@ yarn-error.log*
 
 # infra provisioning trash
 .terraform/
+.terraform.lock.hcl
 terraform*
